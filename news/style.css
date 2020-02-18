@@ -1,0 +1,33 @@
+@media(min-width:768px){
+    #headarea {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url(/libs/images/bg.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+}
+
+.newsletters .newsletter div{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.newsletters .newsletter h2 {
+    font-size: 1.4em;
+    text-align: center;
+}
+.newsletters .news-line {
+    margin-bottom: 2em;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+.newsletters .news-line span {
+    background-color: black;
+    padding: 0 10px;
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+p.old{
+    color: #777777;
+    font-style: italic;
+}

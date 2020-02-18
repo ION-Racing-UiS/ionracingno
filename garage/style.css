@@ -1,0 +1,44 @@
+@media(min-width:768px){
+    #headarea {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(/libs/images/garage.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+}
+
+.carnav {
+    padding-bottom: 1.4em;
+}
+.carnav p{
+    font-weight: 700;
+    text-align: center;
+}
+.carnav p a {
+    color: #119ED9;
+    cursor: pointer !important;
+}
+
+.car {
+    margin-top: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+.car .about {
+    margin-bottom: 2em;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+.car .about span {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+
+.car img {
+    width: 100%;
+}

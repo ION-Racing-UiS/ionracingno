@@ -1,0 +1,22 @@
+@media(min-width:768px) {
+    #headarea {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(team/2019/Gruppebilder/TEAM_2019_ALT.JPG);
+        background-size: cover;
+        background-position: top center;
+    }
+    .heading img {
+        display: none;
+    }
+    
+}
+@media(max-width:767px) {
+    .heading img {
+        margin-bottom: 1em;
+        outline: 2px solid #119ED9;
+        outline-offset: 3px;
+    }
+}
+
+.row article{
+    margin: 20px;
+}

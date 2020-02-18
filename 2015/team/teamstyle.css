@@ -1,0 +1,77 @@
+@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); }
+
+.hideme {
+  opacity: 0;
+}
+
+.container {
+  width: 1100px;
+  max-width: 100%
+}
+
+.jumbotron {
+  height: 600px;
+  line-height: 0px;
+	padding: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbo {
+  background: no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.jumbo .container {
+  position: relative;
+  font-family: 'BebasNeue';
+}
+
+.jumbo h1 {
+  color: #00b8de;
+  font-size: 140px;
+  margin-top: 220px;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(0,0,0, 0.2);
+}
+
+.content {
+  border-top: 1px solid #bfbfbf;
+  overflow-y: hidden;
+  z-index: 100;
+  font-family: 'Open Sans';
+  color: #393c3d;
+  background-color: #efefef;
+  box-shadow: 0px 3px 20px rgba(0,0,0, 0.2);
+}
+
+.team-content {
+  padding-bottom: 20px;
+}
+
+.team {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #00b8de;
+  border-radius: 20px;
+}
+
+.team h3 {
+  margin-top: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.team dt,dd {
+  font-size: 14px;
+}
+.team dt {
+  margin-top: 10px;
+}
+
+.team-block {
+  border-top: 1px solid #bfbfbf;
+  padding: 10px;
+  font-size: 16px;
+}

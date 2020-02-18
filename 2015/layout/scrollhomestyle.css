@@ -1,0 +1,11 @@
+.back-to-top {
+  position: fixed;
+  margin: 0;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 20%;
+  color: #000;
+  font-size: 50px;
+  opacity: 0.5;
+  z-index: 1000;
+}

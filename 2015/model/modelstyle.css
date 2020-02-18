@@ -1,0 +1,12 @@
+.container {
+  width: 1100px;
+  max-width: 100%
+}
+
+#gauges {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fafafa;
+  box-shadow: 0px 3px 20px rgba(0,0,0, 0.2);
+}

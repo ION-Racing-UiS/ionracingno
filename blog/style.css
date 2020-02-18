@@ -1,0 +1,13 @@
+@media(max-width:767px) {
+    #myCollapse.navbar-collapse {
+        border-bottom: 5px solid black;
+    }
+}
+#frame {
+    vertical-align: middle;
+    margin-top: -8em;
+    background-color: #000;
+}
+.navbar {
+    background-color: #000;
+}

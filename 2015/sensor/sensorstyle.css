@@ -1,0 +1,33 @@
+.container {
+  width: 1100px;
+  max-width: 100%
+}
+
+#sensorData {
+  padding: 30px;
+}
+
+.map-live {
+  padding: 30px;
+}
+
+.jumbotron {
+  border: 1px solid #bfbfbf;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#gauges {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-top: 1px solid #bfbfbf;
+  box-shadow: 0px 3px 20px rgba(0,0,0, 0.2);
+}
+
+#updating-chart {
+  margin-bottom: 2%;
+  width: 100%;
+}

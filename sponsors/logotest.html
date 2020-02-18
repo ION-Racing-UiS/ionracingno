@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Test</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            .tier{
+                width: 100%;
+                max-width: 768px;
+                margin: 0 auto;
+                border-top: 1px dotted #444444;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            img{
+                object-fit: contain;
+                margin: 20px;
+            }
+            .platinum img{
+                width: calc(50% - 40px);
+            }
+            .gold img{
+                width: calc(40% - 40px);
+            }
+            .silver img{
+                width: calc(25% - 40px);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tier platinum">
+            <img class="" src="Logoer/SKF.png" alt="SKF" />
+            <img class="" src="Logoer/Altair.png" alt="Altair" />
+            <img class="" src="Logoer/uis.png" alt="uis" />
+            <img class="" src="Logoer/SAERTEX.png" alt="SAERTEX" />
+        </div>
+        <div class="tier gold">
+            <img class="" src="Logoer/Lindberg og Lund.png" alt="Lindberg og Lund" />
+            <img class="" src="Logoer/Salte.png" alt="Salte" />
+            <img class="" src="Logoer/smed.png" alt="smed" />
+            <img class="" src="Logoer/WindTec.png" alt="WindTec" />
+        </div>
+        <div class="tier silver">
+            <img class="" src="Logoer/MELASTA.png" alt="MELASTA" />
+            <img class="" src="Logoer/NCAB.png" alt="NCAB" />
+            <img class="" src="Logoer/Tredal.png" alt="Tredal" />
+            <img class="" src="Logoer/EasyForm.png" alt="EasyForm" />
+
+            <img class="" src="Logoer/DIAB.png" alt="DIAB" />
+            <img class="" src="Logoer/IKM Elektro.png" alt="IKM Elektro" />
+            <img class="" src="Logoer/Imatis.png" alt="Imatis" />
+            <img class="" src="Logoer/Motorteknikk.png" alt="Motorteknikk" />
+            <img class="" src="Logoer/TEKNA.png" alt="TEKNA" />
+            <img class="" src="Logoer/TeXtreme.png" alt="TeXtreme" />
+        </div>
+    </body>
+</html>

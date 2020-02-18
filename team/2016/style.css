@@ -1,0 +1,111 @@
+@media(min-width:768px){
+    #headarea {
+        border-bottom: 2px solid white;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(/libs/images/team.jpg);
+        background-size: cover;
+        background-position: top center;
+    }
+}
+    
+.membersnav {
+    padding-top: 2em;
+    padding-bottom: 1.4em;
+}
+.membersnav p{
+    font-weight: 700;
+    text-align: center;
+}
+.membersnav p a {
+    color: #119ED9;
+    cursor: pointer !important;
+}
+.members .group {
+    margin-top: 5px;
+    padding: 1em 0;
+}
+.members .group-line {
+    margin-bottom: 6em;
+    border-bottom: 2px solid white;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+.members .group-line span {
+    background-color: black;
+    padding: 0 10px;
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+.members .group span a {
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+}
+.members .group span a:focus {
+    text-decoration: none;
+}
+.members .group span a:hover {
+    text-decoration: underline;
+}
+
+.members .member {
+    margin-bottom: 2em;
+    text-align: center;
+}
+.members .member h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.members .member img {
+    width: 100%;
+    height: 100;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+@media(max-width:767px) {
+    .members .group span a,
+    .members .group span a:focus {
+        text-decoration: underline;
+    }
+    .members .group-line {
+        margin-bottom: 3em;
+        height: 20px
+    }
+    .members .group-line span {
+        font-size: 25px;
+    }
+    .members .group {
+        padding: 0;
+    }
+    .members .member {
+        padding: 0 3em;
+    }
+    .members .member img {
+        width: 80%;
+        max-width: 280px;
+    }
+    .members .member h3 {
+        font-size: 1.2em;
+        margin-bottom: 0.2em;
+        margin-top: 1em;
+    }
+    .heading img {
+        margin-bottom: 1em;
+        border-top: 2px solid #119ED9;
+        border-bottom: 2px solid #119ED9;
+    }
+}
+@media(min-width:768px) {
+    .members .member h3 {
+        font-size: 1.2em;
+    }
+    .heading img {
+        display: none;
+    }
+}
+@media(min-width:1200px) {
+    .members .member img {
+        max-width: 213px;
+    }
+}

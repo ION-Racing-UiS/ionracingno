@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Ion Team Def",
+    "type": "object",
+    "properties":{
+        "team": {
+            "title": "Team year",
+            "type": "number"
+        },
+        "basePath": {
+            "title": "Base Path",
+            "type": "string"
+        },
+        "groups":{
+            "title": "Groups",
+            "type": "array",
+            "items": {
+                "title": "Item",
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "type": "string"
+                    },
+                    "id": {
+                        "title": "Id",
+                        "type": "string"
+                    },
+                    "members":{
+                        "title": "Members",
+                        "type": "array",
+                        "items": {
+                            "title": "Member",
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "title": "Name",
+                                    "type": "string"
+                                },
+                                "role": {
+                                    "title": "Role",
+                                    "type": "string"
+                                },
+                                "image":{
+                                    "title": "Image",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

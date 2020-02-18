@@ -1,0 +1,113 @@
+@font-face { font-family: BebasNeue; src: url('../fonts/BebasNeue.otf'); }
+
+.hideme {
+  opacity: 0;
+}
+
+.container {
+  width: 1100px;
+  max-width: 100%
+}
+
+.jumbotron {
+  height: 600px;
+  line-height: 0px;
+	padding: 0px;
+  margin-bottom: 0px;
+}
+
+.jumbo {
+  background: no-repeat center top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.jumbo .container {
+  position: relative;
+  font-family: 'BebasNeue';
+}
+
+.jumbo h1 {
+  color: #00b8de;
+  font-size: 140px;
+  margin-top: 220px;
+  text-align: center;
+  text-shadow: 0px 0px 4px rgba(0,0,0, 0.2);
+}
+
+.content {
+  z-index: 100;
+  font-family: 'Open Sans';
+  color: #393c3d;
+  background-color: #fafafa;
+  box-shadow: 0px 3px 20px rgba(0,0,0, 0.2);
+}
+
+.sponsortop {
+  background-color: #efefef;
+  padding-top: 20px; 
+  padding-bottom: 20px;
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.sponsortop .post {
+  padding-bottom: 20px;
+}
+
+.post {
+  text-align: justify;
+}
+
+.post p {
+  font-size: 16px;
+}
+
+.sponsortop .quote {
+  background-color: #fafafa;
+  padding: 20px;
+  margin-bottom: 33px;
+  border: 2px solid #00b8de;
+  border-radius: 10px;
+}
+
+.sponsortop .quote-text {
+  transition: all 0.5s ease 0s;
+}
+
+.sponsortop .quote-text:hover {
+  color:#00b8de;
+}
+
+.sponsormain .mainsponsor {
+  background-color: #efefef;
+  padding: 20px;
+  border: 2px solid #00b8de;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.sponsormain img {
+  max-width: 100%;
+  padding-top: 10px;
+  max-height: 180px;
+  
+}
+.sponsormain h4 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.sponsormain .about {
+  background-color: #efefef;
+  padding: 20px;
+  border: 1px solid #bfbfbf;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.sponsormain .about:hover {
+  border: 1px solid #00b8de;
+}

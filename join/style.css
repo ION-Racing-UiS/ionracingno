@@ -1,0 +1,9 @@
+@media(max-width:767px) {
+    #myCollapse.navbar-collapse {
+        border-bottom: 5px solid black;
+    }
+}
+
+#frame {
+    vertical-align: middle;
+}

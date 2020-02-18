@@ -1,0 +1,19 @@
+.heading{
+    padding: 3em;
+}
+
+.row article{
+    margin: 20px;
+}
+.row li{
+    margin: 6px 0;
+}
+.row img{
+    float: right;
+    width: 100%;
+}
+@media(min-width:768px) {
+    .row img {
+        width: 60%;
+    }
+}

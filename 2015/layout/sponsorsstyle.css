@@ -1,0 +1,16 @@
+.sponsors {
+  border-top: 1px solid #bfbfbf;
+  background-color: #eaeaea;
+  font-family: 'Open Sans';
+  text-align: center;
+  color: #393c3d;
+  padding-bottom: 20px;
+}
+
+.sponsors img{
+  max-width: 100%;
+}
+
+.sponsors area {
+  outline: none;
+}

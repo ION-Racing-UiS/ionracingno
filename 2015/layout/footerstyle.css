@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  position: relative;
+  background-color: #fafafa;
+  font-family: 'Open Sans';
+  box-shadow: 0px 3px 20px rgba(0,0,0, 0.2);
+  border-top: 1px solid #bfbfbf;
+  z-index: 200;
+}

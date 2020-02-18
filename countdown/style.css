@@ -1,0 +1,22 @@
+#content {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+}
+#clockdiv {
+    padding-bottom: 5em;
+}
+#clockdiv p {
+    text-align: center;
+    padding-right: 10px;
+    font-family: 'Lobster';
+    font-size: 5em;
+}
+@media(max-width:767px) {
+    #clockdiv p {
+        font-size: 3em;
+    }
+    #clockdiv div {
+        padding-top: 2em;
+    }
+}
