@@ -38,7 +38,7 @@ function isActive($p) {
                 </li>
                 <li <?php isActive("Competition") ?> ><a href="/competition">Competition</a>
                 </li>
-                <li <?php isActive("Team") ?> ><a href="/team/2020">Team</a>
+                <li <?php isActive("Team") ?> ><a href="/team/2022">Team</a>
                 </li>
                 <li <?php isActive("Garage") ?>><a href="/garage">Garage</a>
                 </li>

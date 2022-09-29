@@ -57,7 +57,7 @@ new TeamGroup("Chassis", "chassis","Gruppebilder/Chassis.JPG", array(
 )),
 new TeamGroup("Suspension", "suspension","", array(
     new Member("Trygve Pollen", "Group Leader Suspension","ProfilePics/Members/Trygve_Pollen.jpg"),
-    new Member("Arman Zarghooni","Dampers/ARB","ProfilePics/Members/Arman_Zarghooni.jpg"),
+    new Member("Arman Zarghooni","Dampers/ARB","ProfilePics/ion_stig.jpg"),
     new Member("Anders Vatland","Pedal Box","ProfilePics/Members/Anders_Vatland.jpg"),
     new Member("Erik Hagen","Brake System","ProfilePics/Members/Erik_Hagen.jpg"),
     new Member("Aksel Søraunet","Steering-system/wheel/Suspension Geometry","ProfilePics/Members/Aksel_Soraunet.jpg"),
@@ -93,6 +93,8 @@ new TeamGroup("IT", "it","Gruppebilder/EL_IT.JPG", array(
 <div class="membersnav">
     <div class="container">
         <p>
+            <a href="/team/2022">2022</a> |
+            <a href="/team/2021">2021</a> |
 			<a href="/team/2020">2020</a> |
 			<a href="/team/2019">2019</a> |
             <a href="/team/2018">2018</a> | 

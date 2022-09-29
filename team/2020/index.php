@@ -9,7 +9,7 @@
     <script src="/libs/modal/jquery.magnific-popup.js"></script>
     <style>
         #headarea{
-            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(https://ionracing.no/team/2019/Gruppebilder/TEAM_2019_ALT.JPG);
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(/team/2020/img/groups/TEAM_2020.png);
             background-size: cover;
             background-position: top center;
         }

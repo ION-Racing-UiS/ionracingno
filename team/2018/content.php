@@ -105,6 +105,8 @@ new TeamGroup("Software", "software","Gruppebilder/Software.jpg", array(
 <div class="membersnav">
     <div class="container">
         <p>
+            <a href="/team/2022">2022</a> |
+            <a href="/team/2021">2021</a> |
 			<a href="/team/2020">2020</a> |
 			<a href="/team/2019">2019</a> |
             <a href="/team/2018">2018</a> | 

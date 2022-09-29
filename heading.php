@@ -13,8 +13,9 @@
             </div>
             <div class="col-xs-12 col-sm-8 col-md-6">
                 <h1>Want to become a member?</h1>
-                <p>If you want to join the board for 2021, you can fill out this application 
-                <a href="/join">form</a>.
+                <p>If you want to join the team for 2021, you can fill out this application form.
+                <a class="email-me btn" style="" href="/join?lang=no">Application form (No)</a>
+                <a class="email-me btn" style="" href="/join?lang=en">Application form (En)</a>
                 </p>
             </div>
         </div>

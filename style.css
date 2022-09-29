@@ -1,6 +1,6 @@
 @media(min-width:768px) {
     #headarea {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(team/2019/Gruppebilder/TEAM_2019_ALT.JPG);
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1)), url(team/2020/img/groups/TEAM_2020.png);
         background-size: cover;
         background-position: top center;
     }
